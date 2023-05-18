@@ -1,0 +1,57 @@
+header.root {
+  margin: 88px 24px 64px 24px;
+
+  @media (width >= 1440px) {
+    align-self: center;
+    grid-column: 1;
+    grid-row: 1 / -1;
+    margin: 0 46px 0 0;
+    width: 100%;
+  }
+
+  & > h1 {
+    color: #ffffff;
+    font-family: var(--font);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.291667px;
+    line-height: 36px;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    text-align: center;
+
+    @media (width >= 1440px) {
+      color: #ffffff;
+      font-family: var(--font);
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: -0.520833px;
+      line-height: 55px;
+      margin-bottom: 11px;
+      padding-bottom: 21px;
+      text-align: start;
+    }
+  }
+
+  & > h3 {
+    color: #ffffff;
+    font-family: var(--font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+
+    @media (width >= 1440px) {
+      color: #ffffff;
+      font-family: var(--font);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 26px;
+      text-align: start;
+    }
+  }
+}

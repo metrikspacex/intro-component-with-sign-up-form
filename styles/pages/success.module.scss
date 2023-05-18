@@ -1,0 +1,17 @@
+main.root {
+  background-image: url("/sign-up-form-client/bg-intro-mobile.png");
+  background-position: left 50% top 0;
+  background-repeat: no-repeat;
+  background-size: 375px 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  min-height: 100vh;
+  place-items: center;
+
+  @media (width >= 1440px) {
+    background-image: url("/sign-up-form-client/bg-intro-desktop.png");
+    background-position: left 0 top 0;
+    background-size: 100vw 100%;
+  }
+}

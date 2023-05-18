@@ -1,0 +1,44 @@
+section.root {
+  background: #5e54a4;
+  border-radius: 10px;
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.14688);
+  margin: 0 24px 24px 24px;
+
+  @media (width >= 1440px) {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0 0 24px 0;
+    width: 100%;
+  }
+
+  & > h2 {
+    color: #ffffff;
+    font-family: var(--font);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.267857px;
+    line-height: 26px;
+    padding: 18px 68px 18px 67px;
+    text-align: center;
+
+    & > span {
+      font-weight: 400;
+      @media (width >= 1440px) {
+        font-size: 13px;
+      }
+    }
+
+    @media (width >= 1440px) {
+      color: #ffffff;
+      font-family: var(--font);
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: 0.267857px;
+      line-height: 25px;
+      padding: 17px 112px 17px 112px;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "files.exclude": {
+    "**/.git": false,
+    ".design": false,
+    ".env": false,
+    ".eslintignore": false,
+    ".eslintrc": false,
+    ".gitignore": false,
+    ".next": false,
+    ".prettierignore": false,
+    ".prettierrc": false,
+    ".screenshots": false,
+    "guide.md": false,
+    "next-env.d.ts": false,
+    "next.config.js": false,
+    "node_modules": false,
+    "out": false,
+    "package-lock.json": false,
+    "package.json": false,
+    "readme.md": false,
+    "tsconfig.json": false
+  }
+}
